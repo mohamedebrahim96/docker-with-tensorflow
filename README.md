@@ -1,7 +1,10 @@
 # docker-with-tensorflow
 
 
-![Edit This](wiki/docker.png)
+![docker](wiki/docker.png)
+
+![Edit This](wiki/tensorflow-layers.png)
+
 
 once u download the docker file .....run the command to test it 
 ```
