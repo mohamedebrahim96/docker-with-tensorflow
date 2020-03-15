@@ -5,6 +5,10 @@
 
 ![Edit This](wiki/tensorflow-layers.png)
 
+detect public ip address --> `curl ipecho.net/plain ; echo`
+detect local ip address --> `ipconfig getifaddr en0`
+
+
 
 once u download the docker file .....run the command to test it 
 ```
@@ -39,7 +43,7 @@ docker run hello-world
 `docker run` creates and starts a container in one operation.
 `docker rm` deletes a container.
 `docker update` updates a container's resource limits.
-
+`docker restart` restart the container.
 
 `$ docker run busybox echo "hello from busybox"` 
 hello from busybox
