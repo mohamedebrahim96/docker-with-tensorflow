@@ -42,6 +42,7 @@ docker run hello-world
 `docker rename` allows the container to be renamed.
 `docker run` creates and starts a container in one operation.
 `docker rm` deletes a container.
+`docker rmi` deletes a image.
 `docker update` updates a container's resource limits.
 `docker restart` restart the container.
 
