@@ -52,3 +52,6 @@ hello from busybox
 ----------------
 
 The `docker ps` command shows you all containers that are currently running.
+
+Run nginx with port 80 and it's name *webserver* 
+`docker run --detach --publish=80:80 --name=webserver nginx`
