@@ -56,3 +56,11 @@ The `docker ps` command shows you all containers that are currently running.
 
 Run nginx with port 80 and it's name *webserver* 
 `docker run --detach --publish=80:80 --name=webserver nginx`
+
+
+WARNING! 
+===================
+`$docker image prune`
+This will remove all dangling images.
+`$docker container prune`
+This will remove all stopped containers.
